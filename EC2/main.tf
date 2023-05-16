@@ -2,7 +2,7 @@
 resource "aws_instance" "TerraformInstance" {
   ami           = var.ami
   instance_type = var.instance_type
-  key_name      = "AAF"
+  key_name      = "key"
   tags = {
     Name = "Terraform Ec2"
   }

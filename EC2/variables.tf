@@ -6,7 +6,7 @@ variable "aws_region" {
 variable "ami"{
     description = "ami for ubuntu"
     type = string
-    default = "ami-016eb5d644c333ccb"
+    default = "ami"
 }
 variable "instance_type"{
     description = "type of the Instance"
